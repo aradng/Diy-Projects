@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RazerAppId>{60B3EEFD-6A95-4DE7-8541-7F2EC6E89893}</RazerAppId>
+  <Sync>true</Sync>
+  <RunAtBoot>false</RunAtBoot>
+  <Instances>
+    <Instances xsi:type="WLEDModule">
+      <Type>0</Type>
+      <Enabled>true</Enabled>
+      <IsConnected>true</IsConnected>
+      <LedCount>1</LedCount>
+      <Gradient>true</Gradient>
+      <Brightness>255</Brightness>
+      <Led1>true</Led1>
+      <Led2>true</Led2>
+      <Led3>true</Led3>
+      <Led4>true</Led4>
+      <LEDs>
+        <ArrayOfInt>
+          <int>0</int>
+          <int>255</int>
+          <int>64</int>
+        </ArrayOfInt>
+      </LEDs>
+      <IsOn>true</IsOn>
+      <WLEDIPAddress>192.168.1.4</WLEDIPAddress>
+      <WLEDPort>21324</WLEDPort>
+      <MacAddress>fcf5c48a1a12</MacAddress>
+      <GroupName>20defd23-4059-4249-81bf-374318eaa023</GroupName>
+      <Segments>
+        <WLEDSegment>
+          <start>0</start>
+          <stop>1</stop>
+          <len>1</len>
+          <rev>false</rev>
+          <Color1>false</Color1>
+          <Color2>false</Color2>
+          <Color3>false</Color3>
+          <Color4>false</Color4>
+          <Gradient>false</Gradient>
+        </WLEDSegment>
+      </Segments>
+      <ColorTypeStrip>true</ColorTypeStrip>
+      <ColorTypeSegment>false</ColorTypeSegment>
+      <Name>WLED</Name>
+    </Instances>
+  </Instances>
+</AppSettings>
